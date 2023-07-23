@@ -53,4 +53,15 @@ packer.startup(function(use)
   use 'arzg/vim-substrata'
   use 'sainnhe/gruvbox-material'
   use 'RRethy/nvim-base16'
+  use 'folke/tokyonight.nvim'
+  use { "catppuccin/nvim", as = "catppuccin" }
+
+  -- use({
+  --   "jackMort/ChatGPT.nvim",
+  --   requires = {
+  --     "MunifTanjim/nui.nvim",
+  --     "nvim-lua/plenary.nvim",
+  --     "nvim-telescope/telescope.nvim"
+  --   }
+  -- })
 end)

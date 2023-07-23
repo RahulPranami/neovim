@@ -74,6 +74,11 @@ end
 time([[try_loadstring definition]], false)
 time([[Defining packer_plugins]], true)
 _G.packer_plugins = {
+  ["ChatGPT.nvim"] = {
+    loaded = true,
+    path = "/home/rahul/.local/share/nvim/site/pack/packer/start/ChatGPT.nvim",
+    url = "https://github.com/jackMort/ChatGPT.nvim"
+  },
   LuaSnip = {
     loaded = true,
     path = "/home/rahul/.local/share/nvim/site/pack/packer/start/LuaSnip",
@@ -94,6 +99,11 @@ _G.packer_plugins = {
     path = "/home/rahul/.local/share/nvim/site/pack/packer/start/colorbuddy.nvim",
     url = "https://github.com/tjdevries/colorbuddy.nvim"
   },
+  ["gruvbox-material"] = {
+    loaded = true,
+    path = "/home/rahul/.local/share/nvim/site/pack/packer/start/gruvbox-material",
+    url = "https://github.com/sainnhe/gruvbox-material"
+  },
   ["lspkind-nvim"] = {
     loaded = true,
     path = "/home/rahul/.local/share/nvim/site/pack/packer/start/lspkind-nvim",
@@ -109,10 +119,20 @@ _G.packer_plugins = {
     path = "/home/rahul/.local/share/nvim/site/pack/packer/start/neosolarized.nvim",
     url = "https://github.com/svrana/neosolarized.nvim"
   },
+  ["nui.nvim"] = {
+    loaded = true,
+    path = "/home/rahul/.local/share/nvim/site/pack/packer/start/nui.nvim",
+    url = "https://github.com/MunifTanjim/nui.nvim"
+  },
   ["nvim-autopairs"] = {
     loaded = true,
     path = "/home/rahul/.local/share/nvim/site/pack/packer/start/nvim-autopairs",
     url = "https://github.com/windwp/nvim-autopairs"
+  },
+  ["nvim-base16"] = {
+    loaded = true,
+    path = "/home/rahul/.local/share/nvim/site/pack/packer/start/nvim-base16",
+    url = "https://github.com/RRethy/nvim-base16"
   },
   ["nvim-bufferline.lua"] = {
     loaded = true,
@@ -168,6 +188,16 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/rahul/.local/share/nvim/site/pack/packer/start/telescope.nvim",
     url = "https://github.com/nvim-telescope/telescope.nvim"
+  },
+  ["vim-substrata"] = {
+    loaded = true,
+    path = "/home/rahul/.local/share/nvim/site/pack/packer/start/vim-substrata",
+    url = "https://github.com/arzg/vim-substrata"
+  },
+  warlock = {
+    loaded = true,
+    path = "/home/rahul/.local/share/nvim/site/pack/packer/start/warlock",
+    url = "https://github.com/hardselius/warlock"
   }
 }
 
